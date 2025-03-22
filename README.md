@@ -1,3 +1,6 @@
+NAME:SUSHMITHA S
+
+REG NO:212224230282
 # -SOLUTION-TO-A-SYSTEM-OF-LINEAR-EQUATIONS
 ## Aim:
 To write a python program to find a solution to a system of linear equations.
@@ -15,7 +18,21 @@ Using the np.linalg.solve(), we can find the solutions.
 End the program
 ## Program:
 
+
+#Developed by: SUSHMITHA S
+#RegisterNumber: 212224230282
+import numpy as np
+A=np.array([[1,3],[2,5]])
+B=np.array([5,-3])
+C=np.linalg.solve(A,B)
+print(C)
+
 ## Output:
+
+![image](https://github.com/user-attachments/assets/16b2991d-0704-4957-b87a-8c572c3003ec)
+
+
+
 ## Result: 
 Thus the solutions for the linear equations are successfully solved using python program
 
